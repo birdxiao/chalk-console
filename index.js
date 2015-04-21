@@ -1,0 +1,1 @@
+module.exports = require('./libs/color-console.js');

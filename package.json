@@ -1,0 +1,31 @@
+{
+  "name": "chalk-console",
+  "version": "0.0.1",
+  "description": "console text colorfully，and success, info, warn, or danger colorfully",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "date-utils": "^1.2.16",
+    "lodash": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xsmallbird/chalk-console.git"
+  },
+  "keywords": [
+    "color",
+    "console",
+    "chalk",
+    "color-console"
+  ],
+  "author": "xsmallbird",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xsmallbird/chalk-console/issues"
+  },
+  "homepage": "https://github.com/xsmallbird/chalk-console"
+}
