@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "indent": [1, 2],
+    "quotes": [1, "single"],
+    "linebreak-style": [0, "windows"],
+    "semi": [1, "always"],
+    "no-unused-vars": 0,
+    "no-cond-assign": 0,
+    "no-console": 0
+  },
+  "globals": {
+    "define": true
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": "eslint:recommended"
+}
+

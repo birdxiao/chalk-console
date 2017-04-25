@@ -1,16 +1,16 @@
-# color-console
+# chalk-console
 console text colorfully，and success, info, warn, or danger colorfully
 
 ## Install
 
 ```
-npm install color-console --save/--save-dev
+npm install chalk-console --save/--save-dev
 ```
 
 ## Usage
 ```javascript
-// var colorConsole = require('color-console');
-var console = require('color-console');
+// var chalk = require('chalk-console');
+var console = require('chalk-console');
 
 // color console, support for [red, gray, blue, cyan, white, green, yellow] color
 console.gray('day day study, day day up!');          // => [HH24:MI:MM] day day study, day day up!
@@ -51,6 +51,3 @@ console.dir('...');
 console.time('...');
 console.assert('...');
 ```
-
-
-

@@ -8,9 +8,12 @@
     "date-utils": "^1.2.16",
     "lodash": "^3.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",

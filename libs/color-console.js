@@ -30,7 +30,7 @@ COLORS.forEach(function (color) {
   exports[color] = (function (color) {
     return function (content, flag) {
       console.log((flag ? chalk.gray(time()) + ' ' : '') + chalk[color](content));
-    }
+    };
   })(color);
 });
 
@@ -51,10 +51,10 @@ Object.keys(STATES).forEach(function (state) {
 
       what = (options.time ? gray(time()) + ' ' : '') +
              (chalk[color]('[' + options.label + ']') + ' ') +
-             (options.all ? chalk[color](content) : content)
+             (options.all ? chalk[color](content) : content);
 
       console.log(what);
-    }
+    };
   })(state);
 });
 
