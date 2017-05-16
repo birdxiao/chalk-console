@@ -1,7 +1,7 @@
 {
   "name": "chalk-console",
   "version": "1.0.1",
-  "description": "console text colorfully，and success, info, warn, or danger colorfully",
+  "description": "console text colorfully, and success, info, warn, or danger colorfully",
   "main": "index.js",
   "dependencies": {
     "chalk": "^1.0.0",
